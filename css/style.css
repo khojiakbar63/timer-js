@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    background-color: #fff;
+    height: 100vh;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.button {
+    padding: 10px 20px;
+    color: #200545;
+    background-color: #f8f4f4;
+    box-shadow: #00000026 1.95px 1.95px 2.6px;
+}
+.button:hover {
+    cursor: pointer;
+    box-shadow: #00000026 1.95px .95px 2.6px;
+}
+.button:active {
+    box-shadow: none;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+#header .left-arrow {
+    width: 40px;
+    padding: 2px 4px;
+}
+#header .nightmode {
+    width: 40px;
+    padding: 0;
+    display: block;
+}
+#header .daymode {
+    width: 40px;
+    padding: 0;
+    display: none;
+}
+.body {
+    background-color: #f8f4f4;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+    box-shadow: #00000026 1.95px 1.95px 2.6px;
+}
+#body .time {
+    font-size: 50px;
+    font-weight: 900;
+}
+#footer {
+    max-width: 300px;
+    margin: 50px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+.dark-mode {
+    background-color: #435B66;
+    color: #fff;
+}
+.dark-btn {
+    background-color: #2D4356;
+    color: #fff;
+}
+.block {
+    display: block;
+}
+.hide {
+    display: none;
+}
