@@ -10,23 +10,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="cover">
+        <button id="enter-btn"><img src="./icons/enter.svg" alt="enter"></button>
+    </div>
     <div class="container">
 
         <section id="header">
-            <img class="button left-arrow" src="./icons/left-arrow.svg" alt="">
-            <h1 class="button">Timer</h1>
-            <h1 class="button">O'clock</h1>
+            <img id="left-arrow-dark" class="button left-arrow left-arrow-dark" src="./icons/left-arrow.svg" alt="">
+            <img id="left-arrow-white" class="button left-arrow left-arrow-white" src="./icons/left-arrow-white.svg" alt="">
+            <h1 id="timer" class="button">Timer</h1>
+            <h1 id="clock" class="button">O'clock</h1>
             <img id="night-mode-btn" class="button nightmode" src="./icons/nightmode.svg" alt="nightmode">
             <img id="day-mode-btn" class="button daymode" src="./icons/daymode.svg" alt="daymode">
         </section>
 
         <section id="body" class="body">
-            <h1 id="screen" class="time"></h1>
+            <h1 id="time" class="time"></h1>
+            <h1 id="stop-watch" class="time"></h1>
         </section>
 
         <section id="footer">
-            <h1 class="button">Start</h1>
-            <h1 class="button">Quit</h1>
+            <h1 id="start-stop-btn" class="button">Start</h1>
+            <h1 id="reset-btn" class="button">Reset</h1>
         </section>
 
 

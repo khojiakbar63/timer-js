@@ -25,6 +25,26 @@ body {
 .button:active {
     box-shadow: none;
 }
+.cover {
+    left: 0px;
+    position: absolute;
+    height: 100vh;
+    background-color:#ebf0f3;
+    width: 100%;
+}
+.cover #enter-btn {
+    position: absolute;
+    border: none;
+    outline: none;
+    top: 50%;
+    left: 45%;
+}
+.cover #enter-btn img {
+    width: 100px;
+}
+.open {
+    left: -1000px;
+}
 #header {
     display: flex;
     align-items: center;
@@ -34,6 +54,15 @@ body {
 #header .left-arrow {
     width: 40px;
     padding: 2px 4px;
+}
+#header .left-arrow-dark {
+    width: 40px;
+    padding: 2px 4px;
+}
+#header .left-arrow-white {
+    width: 40px;
+    padding: 2px 4px;
+    display: none;
 }
 #header .nightmode {
     width: 40px;
@@ -81,12 +110,7 @@ body {
     background-color: #2D4356;
     color: #fff;
 }
-.block {
-    display: block;
-}
-.hide {
-    display: none;
-}
+
 
 /* Media query */
 @media (max-width: 768px) {
