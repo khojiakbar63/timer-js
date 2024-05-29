@@ -28,7 +28,7 @@ body {
 .cover {
     left: 0px;
     position: absolute;
-    max-height: 100vh;
+    height: 100vh;
     background-color:#ebf0f3;
     width: 100%;
 }
