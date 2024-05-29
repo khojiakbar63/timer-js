@@ -87,3 +87,17 @@ body {
 .hide {
     display: none;
 }
+
+/* Media query */
+@media (max-width: 768px) {
+    #body .time {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+@media (max-width: 576px) {
+    #body .time {
+        font-size: 22px;
+        font-weight: 500;
+    }
+}
