@@ -84,8 +84,9 @@ function enter () {
     cover.classList.add('open')
 }
 function exit () {
-    cover.classList.remove('open')
+    cover.classList.remove('open');
 }
+
 // Events
 nightModeBtn.addEventListener('click', darkMode)
 dayModeBtn.addEventListener('click', dayMode)
